@@ -810,6 +810,7 @@
 						fontSize: this.options.tooltipFontSize,
 						caretHeight: this.options.tooltipCaretSize,
 						cornerRadius: this.options.tooltipCornerRadius,
+						strokeStyle: this.options.tooltipStrokeColor,
 						text: helpers.template(this.options.tooltipTemplate, firstElement),
 						chart: this.chart,
 						custom: this.options.customTooltips
@@ -846,6 +847,7 @@
 						titleFontStyle: this.options.tooltipTitleFontStyle,
 						titleFontSize: this.options.tooltipTitleFontSize,
 						cornerRadius: this.options.tooltipCornerRadius,
+						strokeStyle: this.options.tooltipStrokeColor,
 						labels: tooltipLabels,
 						legendColors: tooltipColors,
 						legendColorBackground: this.options.multiTooltipKeyBackground,
